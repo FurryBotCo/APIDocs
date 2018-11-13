@@ -6,7 +6,7 @@ description: Get a random ..  I don't really know what this category is image!
 
 {% api-method method="get" host="https://api.furrybot.me/sfw" path="/hold/:responseType/:imageType" %}
 {% api-method-summary %}
-***Hold***.
+Hold.
 {% endapi-method-summary %}
 
 {% api-method-description %}

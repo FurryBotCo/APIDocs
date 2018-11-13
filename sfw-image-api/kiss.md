@@ -6,7 +6,7 @@ description: Get a random kiss image!
 
 {% api-method method="get" host="https://api.furrybot.me/sfw" path="/kiss/:responseType/:imageType" %}
 {% api-method-summary %}
-Get a kiss. <!-- Slide into them DMs -->
+Get a kiss. 
 {% endapi-method-summary %}
 
 {% api-method-description %}

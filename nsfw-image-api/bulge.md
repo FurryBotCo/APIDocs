@@ -6,7 +6,7 @@ description: Get a random bulge image!
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/bulge/:responseType/:imageType" %}
 {% api-method-summary %}
-Get a proposal.
+Get a bulge.
 {% endapi-method-summary %}
 
 {% api-method-description %}

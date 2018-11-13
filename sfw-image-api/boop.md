@@ -1,5 +1,5 @@
 ---
-description: Get a random boop image!
+description: Get a random cuddle image!
 ---
 
 # Boop
