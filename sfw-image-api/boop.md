@@ -57,8 +57,7 @@ An image was found.
         "code": 400
         "description": "{varies}"
     }
-}
-```
+}```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
@@ -73,8 +72,7 @@ Could not find a cake matching this query.
         "code": 404,
         "description": "no images found with given type."
     }
-}
-```
+}```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
