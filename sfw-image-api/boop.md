@@ -6,7 +6,7 @@ description: Get a random boop image!
 
 {% api-method method="get" host="https://api.furrybot.me/sfw" path="/boop/:responseType/:imageType" %}
 {% api-method-summary %}
-Get Cakes
+Get Boops.
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -29,14 +29,18 @@ This can be 1 or more of: png,jpg,gif,webp. Separate by commas. \(no spaces\)
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+An image was found.
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
+    "success": true,
+    "response": {
+        "image": "https://furrybot.furcdn.net/sfw/boop/00574.jpg",
+        "filetype": "jpeg",
+        "name": "00574.jpg",
+        "returntype": "json"
+    }
 }
 ```
 {% endapi-method-response-example %}
@@ -47,7 +51,13 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```javascript
-{}
+{
+    "success": false,
+    "error": {
+        "code": 400
+        "description": "{varies}"
+    }
+}
 ```
 {% endapi-method-response-example %}
 
@@ -58,7 +68,11 @@ Could not find a cake matching this query.
 
 ```javascript
 {
-    "message": "Ain't no cake like that."
+    "success": false,
+    "error": {
+        "code": 404,
+        "description": "no images found with given type."
+    }
 }
 ```
 {% endapi-method-response-example %}
