@@ -6,7 +6,7 @@ description: Get a random yiff image!
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/yiff/:responseType/:yiffType/:imageType" %}
 {% api-method-summary %}
-Get cuddles.
+Get yiff.
 {% endapi-method-summary %}
 
 {% api-method-description %}
