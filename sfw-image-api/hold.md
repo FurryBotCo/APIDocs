@@ -2,7 +2,7 @@
 description: Get a random ..  I don't really know what this category is image!
 ---
 
-# Fursuit
+# Hold
 
 {% api-method method="get" host="https://api.furrybot.me/sfw" path="/hold/:responseType/:imageType" %}
 {% api-method-summary %}
