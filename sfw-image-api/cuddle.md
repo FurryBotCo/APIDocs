@@ -38,7 +38,7 @@ An image was found.
     "response": {
         "image": "https://furrybot.furcdn.net/sfw/cuddle/0000C.jpg",
         "filetype": "jpeg",
-        "name": "00574.jpg",
+        "name": "0000C.jpg",
         "returntype": "json"
     }
 }
