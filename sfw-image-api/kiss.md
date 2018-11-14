@@ -24,6 +24,12 @@ This can be one or more of: **png**,**jpg**,**gif**,**webp** separated by commas
 This can be json or image, if not specified json will be used.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="cdn" type="string" required=false %}
+Which cdn should be used for this request? The possible values for this are hidden internally.
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

@@ -6,7 +6,7 @@ description: Get a random yiff image!
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/yiff/:responseType/:yiffType/:imageType" %}
 {% api-method-summary %}
-Get yiff.
+Get cuddles.
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -24,12 +24,12 @@ This can be one or more of: **png**,**jpg**,**gif**,**webp** separated by commas
 This can be gay or straight, if not specified gay will be used.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
-{% endapi-method-request %}
 
-{% api-method-parameter name="responseType" type="string" required=false %}
-This can be json or image, if not specified json will be used.
+{% api-method-query-parameters %}
+{% api-method-parameter name="cdn" type="string" required=false %}
+Which cdn should be used for this request? The possible values for this are hidden internally.
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
