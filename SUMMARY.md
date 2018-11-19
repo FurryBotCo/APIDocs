@@ -17,4 +17,11 @@
 
 * [Bulge](nsfw-image-api/bulge.md)
 * [Yiff](nsfw-image-api/yiff.md)
-
+* [Bang](nsfw-image-api/bang.md)
+* [Cuddle](nsfw-image-api/cuddle.md)
+* [Group](nsfw-image-api/group.md)
+* [Hug](nsfw-image-api/hug.md)
+* [Kiss](nsfw-image-api/kiss.md)
+* [Lick](nsfw-image-api/lick.md)
+* [Solo](nsfw-image-api/solo.md)
+* [Suck](nsfw-image-api/suck.md)
