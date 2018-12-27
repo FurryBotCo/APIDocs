@@ -1,10 +1,10 @@
 ---
-description: Get a random cuddle image!
+description: Get a random boop image!
 ---
 
 # Boop
 
-{% api-method method="get" host="https://api.furrybot.me/sfw" path="/boop/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/sfw" path="/boop/:responseType/:imageType" %}
 {% api-method-summary %}
 Get Boops.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/boop/00574.jpg",
+        "image": "https://fb.furcdn.net/sfw/boop/00574.jpg",
         "filetype": "jpeg",
         "name": "00574.jpg",
         "returntype": "json"
