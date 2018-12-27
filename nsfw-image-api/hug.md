@@ -4,7 +4,7 @@ description: Get a random nsfw hug image!
 
 # Hug
 
-{% api-method method="get" host="https://api.furrybot.me/nsfw" path="/hug/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/nsfw" path="/hug/:responseType/:imageType" %}
 {% api-method-summary %}
 Get a bulge.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/nsfw/hug/00610.jpg",
+        "image": "https://.furcdn.net/nsfw/hug/00610.jpg",
         "filetype": "jpeg",
         "name": "00610.jpg",
         "returntype": "json"

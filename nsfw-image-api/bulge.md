@@ -4,7 +4,7 @@ description: Get a random bulge image!
 
 # Bulge
 
-{% api-method method="get" host="https://api.furrybot.me/nsfw" path="/bulge/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/nsfw" path="/bulge/:responseType/:imageType" %}
 {% api-method-summary %}
 Get a bulge.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/nsfw/bulge/804723448_232977.jpg",
+        "image": "https://f.furcdn.net/nsfw/bulge/804723448_232977.jpg",
         "filetype": "jpeg",
         "name": "804723448_232977.jpg",
         "returntype": "json"

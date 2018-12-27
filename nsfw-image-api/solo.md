@@ -4,9 +4,9 @@ description: Get a random solo yiff image!
 
 # Solo
 
-{% api-method method="get" host="https://api.furrybot.me/nsfw" path="/solo/:responseType/:yiffType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/nsfw" path="/solo/:responseType/:yiffType/:imageType" %}
 {% api-method-summary %}
-Get cuddles.
+Get solo 
 {% endapi-method-summary %}
 
 {% api-method-description %}

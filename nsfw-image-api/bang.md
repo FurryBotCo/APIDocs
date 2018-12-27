@@ -4,7 +4,7 @@ description: Get a random banging image!
 
 # Bang
 
-{% api-method method="get" host="https://api.furrybot.me/nsfw" path="/bang/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/nsfw" path="/bang/:responseType/:imageType" %}
 {% api-method-summary %}
 Get a bulge.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/nsfw/bang/A001.jpg",
+        "image": "https://f.furcdn.net/nsfw/bang/A001.jpg",
         "filetype": "jpeg",
         "name": "A001.jpg",
         "returntype": "json"

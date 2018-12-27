@@ -4,7 +4,7 @@ description: Get a random yiff image!
 
 # Yiff
 
-{% api-method method="get" host="https://api.furrybot.me/nsfw" path="/yiff/:responseType/:yiffType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/nsfw" path="/yiff/:responseType/:yiffType/:imageType" %}
 {% api-method-summary %}
 Get cuddles.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/nsfw/yiff/gay/fe4dc71d2a3de0ed1e706ce34b6b7ade.jpg",
+        "image": "https://f.furcdn.net/nsfw/yiff/gay/fe4dc71d2a3de0ed1e706ce34b6b7ade.jpg",
         "filetype": "jpeg",
         "name": "fe4dc71d2a3de0ed1e706ce34b6b7ade.jpg",
         "returntype": "json"
