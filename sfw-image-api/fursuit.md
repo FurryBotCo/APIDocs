@@ -4,7 +4,7 @@ description: Get a random fursuit image!
 
 # Fursuit
 
-{% api-method method="get" host="https://api.furrybot.me/sfw" path="/fursuit/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/sfw" path="/fursuit/:responseType/:imageType" %}
 {% api-method-summary %}
 Get cuddles.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/fursuit/12 - HkOQ7dw.jpg",
+        "image": "https://fb.furcdn.net/sfw/fursuit/12 - HkOQ7dw.jpg",
         "filetype": "jpeg",
         "name": "12 - HkOQ7dw.jpg",
         "returntype": "json"
