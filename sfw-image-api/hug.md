@@ -4,7 +4,7 @@ description: Get a random hug image!
 
 # Hug
 
-{% api-method method="get" host="https://api.furrybot.me/sfw" path="/hug/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/sfw" path="/hug/:responseType/:imageType" %}
 {% api-method-summary %}
 Get hugs.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/hug/10114-25774-19393.jpg",
+        "image": "https://fb.furcdn.net/sfw/hug/10114-25774-19393.jpg",
         "filetype": "jpeg",
         "name": "10114-25774-19393.jpg",
         "returntype": "json"

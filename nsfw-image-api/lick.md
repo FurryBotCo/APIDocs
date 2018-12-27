@@ -2,7 +2,7 @@
 description: Get a random nsfw lick image!
 ---
 
-# NSFW Lick
+# Lick
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/lick/:responseType/:imageType" %}
 {% api-method-summary %}

@@ -2,7 +2,7 @@
 description: Get a random nsfw hug image!
 ---
 
-# NSFW Hug
+# Hug
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/hug/:responseType/:imageType" %}
 {% api-method-summary %}

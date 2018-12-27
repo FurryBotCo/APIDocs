@@ -2,7 +2,7 @@
 description: Get a random nsfw group image!
 ---
 
-# NSFW Group
+# Group
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/group/:responseType/:imageType" %}
 {% api-method-summary %}

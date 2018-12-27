@@ -4,7 +4,7 @@ description: Get a random proposal image!
 
 # Propose
 
-{% api-method method="get" host="https://api.furrybot.me/sfw" path="/propose/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/sfw" path="/propose/:responseType/:imageType" %}
 {% api-method-summary %}
 Get a proposal.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/propose/15083-8119-23189.jpg",
+        "image": "https://fb.furcdn.net/sfw/propose/15083-8119-23189.jpg",
         "filetype": "jpeg",
         "name": "15083-8119-23189.jpg",
         "returntype": "json"

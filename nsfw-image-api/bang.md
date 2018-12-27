@@ -2,7 +2,7 @@
 description: Get a random banging image!
 ---
 
-# NSFW Bang
+# Bang
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/bang/:responseType/:imageType" %}
 {% api-method-summary %}

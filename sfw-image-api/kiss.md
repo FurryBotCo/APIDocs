@@ -4,7 +4,7 @@ description: Get a random kiss image!
 
 # Kiss
 
-{% api-method method="get" host="https://api.furrybot.me/sfw" path="/kiss/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/sfw" path="/kiss/:responseType/:imageType" %}
 {% api-method-summary %}
 Get a kiss. 
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/kiss/12459-26366-3005.jpg",
+        "image": "https://f.furcdn.net/sfw/kiss/12459-26366-3005.jpg",
         "filetype": "jpeg",
         "name": "12459-26366-3005.jpg",
         "returntype": "json"

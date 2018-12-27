@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/lick/16549-23319-1327.jpg",
+        "image": "https://fb.furcdn.net/sfw/lick/16549-23319-1327.jpg",
         "filetype": "jpeg",
         "name": "16549-23319-1327.jpg",
         "returntype": "json"

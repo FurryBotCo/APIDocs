@@ -2,7 +2,7 @@
 description: Get a random nsfw cuddle image!
 ---
 
-# NSFW Cuddle
+# Cuddle
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/cuddle/:responseType/:imageType" %}
 {% api-method-summary %}

@@ -4,7 +4,7 @@ description: Get a random ..  I don't really know what this category is image!
 
 # Hold
 
-{% api-method method="get" host="https://api.furrybot.me/sfw" path="/hold/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/sfw" path="/hold/:responseType/:imageType" %}
 {% api-method-summary %}
 Hold.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/hold/10036-5173-22623.jpg",
+        "image": "https://fb.furcdn.net/sfw/hold/10036-5173-22623.jpg",
         "filetype": "jpeg",
         "name": "10036-5173-22623.jpg",
         "returntype": "json"

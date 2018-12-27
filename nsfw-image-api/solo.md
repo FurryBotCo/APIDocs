@@ -2,7 +2,7 @@
 description: Get a random solo yiff image!
 ---
 
-# Solo Yiff
+# Solo
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/solo/:responseType/:yiffType/:imageType" %}
 {% api-method-summary %}
