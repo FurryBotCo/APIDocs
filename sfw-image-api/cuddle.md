@@ -4,7 +4,7 @@ description: Get a random cuddle image!
 
 # Cuddle
 
-{% api-method method="get" host="https://api.furrybot.me/sfw" path="/cuddle/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/sfw" path="/cuddle/:responseType/:imageType" %}
 {% api-method-summary %}
 Get cuddles.
 {% endapi-method-summary %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/sfw/cuddle/0000C.jpg",
+        "image": "https://fb.furcdn.net/sfw/cuddle/0000C.jpg",
         "filetype": "jpeg",
         "name": "0000C.jpg",
         "returntype": "json"
