@@ -1,6 +1,6 @@
 # Furry Bot
 
-Furry bot for Discord - [https://www.furry](https://www.furrybot.me).
+Furry bot for Discord - [https://furry.bot](https://furry.bot).
 
 Any content is provided AS IS without warranty or otherwise.
 
