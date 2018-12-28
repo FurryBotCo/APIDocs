@@ -6,11 +6,11 @@ description: Get a random fursuit image!
 
 {% api-method method="get" host="https://api.furry.bot/sfw" path="/fursuit/:responseType/:imageType" %}
 {% api-method-summary %}
-Get cuddles.
+Get Fursuits.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random fursuit images.
 {% endapi-method-description %}
 
 {% api-method-spec %}

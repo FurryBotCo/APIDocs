@@ -23,6 +23,5 @@
 * [Hug](nsfw-image-api/hug.md)
 * [Kiss](nsfw-image-api/kiss.md)
 * [Lick](nsfw-image-api/lick.md)
-* [Solo](nsfw-image-api/solo.md)
 * [Suck](nsfw-image-api/suck.md)
 

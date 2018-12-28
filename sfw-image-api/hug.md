@@ -10,7 +10,7 @@ Get hugs.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random fur hugging images.
 {% endapi-method-description %}
 
 {% api-method-spec %}

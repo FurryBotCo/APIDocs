@@ -10,7 +10,7 @@ Get a bulge.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random fur bulge images.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://f.furcdn.net/nsfw/bulge/804723448_232977.jpg",
+        "image": "https://fb.furcdn.net/nsfw/bulge/804723448_232977.jpg",
         "filetype": "jpeg",
         "name": "804723448_232977.jpg",
         "returntype": "json"

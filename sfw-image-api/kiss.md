@@ -10,7 +10,7 @@ Get a kiss.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random fur kissing images.
 {% endapi-method-description %}
 
 {% api-method-spec %}

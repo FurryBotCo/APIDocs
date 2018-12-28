@@ -6,11 +6,11 @@ description: Get a random suck image!
 
 {% api-method method="get" host="https://api.furrybot.me/nsfw" path="/suck/:responseType/:imageType" %}
 {% api-method-summary %}
-Get a bulge.
+Get a suck.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random fur sucking images.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/nsfw/suck/1A2FO.jpg",
+        "image": "https://fb.furcdn.net/nsfw/suck/1A2FO.jpg",
         "filetype": "jpeg",
         "name": "1A2FO.jpg",
         "returntype": "json"

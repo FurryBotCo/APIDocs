@@ -10,7 +10,7 @@ Get cuddles.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random fur yiffing images.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://f.furcdn.net/nsfw/yiff/gay/fe4dc71d2a3de0ed1e706ce34b6b7ade.jpg",
+        "image": "https://fb.furcdn.net/nsfw/yiff/gay/fe4dc71d2a3de0ed1e706ce34b6b7ade.jpg",
         "filetype": "jpeg",
         "name": "fe4dc71d2a3de0ed1e706ce34b6b7ade.jpg",
         "returntype": "json"

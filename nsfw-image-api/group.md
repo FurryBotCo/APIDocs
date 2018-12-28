@@ -6,11 +6,11 @@ description: Get a random nsfw group image!
 
 {% api-method method="get" host="https://api.furry.bot/nsfw" path="/group/:responseType/:imageType" %}
 {% api-method-summary %}
-Get a bulge.
+Get an nsfw group.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random nsfw fur group images.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://.furcdn.net/nsfw/group/1B3O.jpg",
+        "image": "https://fb.furcdn.net/nsfw/group/1B3O.jpg",
         "filetype": "jpeg",
         "name": "1B3O.jpg",
         "returntype": "json"

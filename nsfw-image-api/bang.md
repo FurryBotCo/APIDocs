@@ -6,11 +6,11 @@ description: Get a random banging image!
 
 {% api-method method="get" host="https://api.furry.bot/nsfw" path="/bang/:responseType/:imageType" %}
 {% api-method-summary %}
-Get a bulge.
+Get a bang.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random fur banging images.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://f.furcdn.net/nsfw/bang/A001.jpg",
+        "image": "https://fb.furcdn.net/nsfw/bang/A001.jpg",
         "filetype": "jpeg",
         "name": "A001.jpg",
         "returntype": "json"

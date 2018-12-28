@@ -4,13 +4,13 @@ description: Get a random nsfw lick image!
 
 # Lick
 
-{% api-method method="get" host="https://api.furrybot.me/nsfw" path="/lick/:responseType/:imageType" %}
+{% api-method method="get" host="https://api.furry.bot/nsfw" path="/lick/:responseType/:imageType" %}
 {% api-method-summary %}
 Get a bulge.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get random fur images.
+This endpoint allows you to get random nsfw fur licking images.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -42,7 +42,7 @@ An image was found
 {
     "success": true,
     "response": {
-        "image": "https://furrybot.furcdn.net/nsfw/lick/093.jpg",
+        "image": "https://fb.furcdn.net/nsfw/lick/093.jpg",
         "filetype": "jpeg",
         "name": "093.jpg",
         "returntype": "json"
