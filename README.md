@@ -6,5 +6,6 @@ Any content is provided AS IS without warranty or otherwise.
 
 ## Wrappers
 
-Node:
+**Node:**
+
 [yiff](https://nodejs.org/package/yiff) - made by [codepupper](https://github.com/codepupper)
